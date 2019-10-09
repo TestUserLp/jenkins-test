@@ -1,4 +1,4 @@
-node('examples') {
+node('ubuntu') {
   stage('First stage') {
     sh 'uname -a'
   }
