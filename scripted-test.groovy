@@ -4,7 +4,7 @@ node('ubuntu') {
   }
   stage('Dependency check') {
     sh 'sudo apt-get update'
-    sh 'sudo apt-cache show httpd'
+    sh 'sudo apt-cache show apache2'
   }
   stage('Last stage') {
     echo 'Hello'
