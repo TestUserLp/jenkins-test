@@ -1,0 +1,7 @@
+git
+github
+matrix-project
+role-strategy
+pipeline-stage-view
+build-pipeline-plugin
+pipeline-model-definition
