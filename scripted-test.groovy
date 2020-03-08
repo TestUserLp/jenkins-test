@@ -3,11 +3,9 @@ node('ubuntu') {
     sh 'uname -a'
   }
   stage('Dependency check') {
-    sh 'sudo apt-get update'
-    sh 'sudo apt-cache policy apache2'
-    sh 'sudo apt-cache show apache2'
-    sh 'sudo apt-mark hold apache2'
-    sh 'sudo apt-mark showhold'
+    sh 'apt list --installed'
+    sh 'apt-cache policy wget'
+    sh 'apt-cache show wget'
   }
   stage('Last stage') {
     echo 'Hello'
