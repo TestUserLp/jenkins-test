@@ -2,7 +2,8 @@
 
 ## Prerequisites
 
-Docker should be installed
+1. Docker should be installed
+2. For Windows users - linux containers should be enabled
 
 ## Usage
 
